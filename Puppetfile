@@ -25,6 +25,7 @@ mod 'martyewings-rsan',
   :branch => 'main'
 mod 'derdanne-nfs', '2.1.6'
 mod 'puppetlabs-stdlib', '6.5.0'
+mod 'puppetlabs-concat', '6.4.0'
 mod 'puppetlabs-postgresql', '6.8.0'
 mod 'puppetlabs-apt', '7.7.0'
 mod 'puppet-archive', '4.6.0'
