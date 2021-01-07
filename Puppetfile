@@ -15,3 +15,18 @@ forge 'https://forge.puppet.com'
 #mod 'apache',
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
+mod 'puppetlabs-puppet_metrics_collector', '6.2.0'
+mod 'puppetlabs-puppet_metrics_dashboard', '2.4.0'
+mod 'puppet-grafana', '7.0.0'
+mod 'puppet-telegraf', '3.1.0'
+mod 'puppetlabs-puppetserver_gem', '1.1.1'
+mod 'martyewings-rsan',
+  :git => 'https://github.com/MartyEwings/RSAN.git',
+  :branch => 'main'
+mod 'derdanne-nfs', '2.1.6'
+mod 'puppetlabs-stdlib', '6.5.0'
+
+mod 'puppetlabs-stdlib', '6.5.0'
+mod 'puppetlabs-postgresql', '6.8.0'
+mod 'puppetlabs-apt', '7.7.0'
+mod 'puppet-archive', '4.6.0'
