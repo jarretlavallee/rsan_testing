@@ -21,8 +21,8 @@ mod 'puppet-grafana', '7.0.0'
 mod 'puppet-telegraf', '3.1.0'
 mod 'puppetlabs-puppetserver_gem', '1.1.1'
 mod 'martyewings-rsan',
-  :git => 'https://github.com/MartyEwings/RSAN.git',
-  :branch => 'main'
+  :git => 'https://github.com/jarretlavallee/RSAN.git',
+  :branch => 'fix_function_name'
 mod 'derdanne-nfs', '2.1.6'
 mod 'puppetlabs-stdlib', '6.5.0'
 mod 'puppetlabs-concat', '6.4.0'
